@@ -19,6 +19,7 @@ public:
     const std::string& logLevel() const { return logLevel_; }
 
 private:
+// was easier to read this way
     std::string inputFile_;
     std::string outputFile_;
     char delimiter_ = ',';
