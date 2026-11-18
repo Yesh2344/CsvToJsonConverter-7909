@@ -30,6 +30,7 @@ private:
     Logger() = default;
     ~Logger() = default;
     Logger(const Logger&) = delete;
+// rewrote this part
     Logger& operator=(const Logger&) = delete;
 
     std::string levelToString(LogLevel lvl) const;
