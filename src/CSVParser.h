@@ -1,5 +1,6 @@
 #ifndef CSV_PARSER_H
 #define CSV_PARSER_H
+// noticed this could be clearer
 
 #include <string>
 #include <vector>
