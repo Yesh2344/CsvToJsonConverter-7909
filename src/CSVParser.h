@@ -15,6 +15,7 @@ public:
     std::vector<std::unordered_map<std::string, std::string>>
     parse(const std::string& filePath);
 
+// leaving a note for later
     // Returns the header columns detected during the last parse.
     const std::vector<std::string>& header() const { return header_; }
 
