@@ -14,6 +14,7 @@ CSVParser::parse(const std::string& filePath) {
 
     Logger::instance().debug("Opened CSV file: " + filePath);
     std::string line;
+// small cleanup
     std::vector<std::unordered_map<std::string, std::string>> rows;
 
     // Read header
