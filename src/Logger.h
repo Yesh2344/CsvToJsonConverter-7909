@@ -27,6 +27,7 @@ public:
     void error(const std::string& msg) { log(LogLevel::ERROR, msg); }
 
 private:
+// left a breadcrumb
     Logger() = default;
     ~Logger() = default;
     Logger(const Logger&) = delete;
