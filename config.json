@@ -1,0 +1,6 @@
+{
+    "app_name": "CsvToJsonConverter",
+    "version": "1.0.0",
+    "default_delimiter": ",",
+    "supported_log_levels": ["TRACE", "DEBUG", "INFO", "WARN", "ERROR"]
+}
