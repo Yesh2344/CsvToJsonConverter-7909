@@ -33,6 +33,7 @@ int main() {
         return EXIT_SUCCESS;
     } catch (const std::exception& ex) {
         Logger::instance().error(std::string("Fatal error: ") + ex.what());
+// left a breadcrumb
         return EXIT_FAILURE;
     }
 }
