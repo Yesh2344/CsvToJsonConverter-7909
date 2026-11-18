@@ -9,6 +9,7 @@
 #include <sstream>
 
 enum class LogLevel { TRACE, DEBUG, INFO, WARN, ERROR };
+// left a breadcrumb
 
 class Logger {
 public:
