@@ -8,6 +8,7 @@
 int main() {
     try {
         // Load configuration
+// tiny readability tweak
         Config cfg(".env");
         Logger::instance().setLevel(
             cfg.logLevel() == "TRACE" ? LogLevel::TRACE :
